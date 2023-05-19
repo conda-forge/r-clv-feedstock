@@ -45,11 +45,12 @@ test:
 
 about:
   home: https://CRAN.R-project.org/package=clv
-  license: GPL (>= 2)
+  license: GPL-2.0-or-later
   summary: Package contains most of the popular internal and external cluster validation methods ready to use for the most of the outputs produced by functions coming from package "cluster". Package contains also functions and examples of usage for cluster stability approach that might be applied to algorithms implemented
     in "cluster" package as well as user defined clustering algorithms.
   license_family: GPL3
-  license_file: {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2
+  license_file:
+    - {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2
 
 extra:
   recipe-maintainers:
