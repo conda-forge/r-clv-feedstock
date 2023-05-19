@@ -8,7 +8,7 @@ About r-clv
 
 Home: https://CRAN.R-project.org/package=clv
 
-Package license: GPL (>= 2)
+Package license: GPL-2.0-or-later
 
 Summary: Package contains most of the popular internal and external cluster validation methods ready to use for the most of the outputs produced by functions coming from package "cluster". Package contains also functions and examples of usage for cluster stability approach that might be applied to algorithms implemented in "cluster" package as well as user defined clustering algorithms.
 About r-clv
@@ -16,7 +16,7 @@ About r-clv
 
 Home: https://CRAN.R-project.org/package=clv
 
-Package license: GPL (>= 2)
+Package license: GPL-2.0-or-later
 
 Summary: Package contains most of the popular internal and external cluster validation methods ready to use for the most of the outputs produced by functions coming from package "cluster". Package contains also functions and examples of usage for cluster stability approach that might be applied to algorithms implemented in "cluster" package as well as user defined clustering algorithms.
 
