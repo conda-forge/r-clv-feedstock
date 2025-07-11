@@ -1,4 +1,4 @@
-{% set version = "0.3-2.4" %}
+{% set version = "0.3-2.5" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/clv_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/clv/clv_{{ version }}.tar.gz
-  sha256: baee506aa15cec3a13ac97f1280c7451fba4eb05506417e59cf06af04d2471fd
+  sha256: d8e622b67e64afdb9027a80bf332d8fd21b26e94f0cb814647f65130c84bc9df
 
 build:
-  number: 1
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
